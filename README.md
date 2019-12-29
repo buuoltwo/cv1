@@ -26,3 +26,28 @@
 10.给具体的板块做布局。
 
 ~2019年12月28日14点55分/buuoltwo
+
+1.给main塞好位置
+2.给main做两栏的grid布局：一行两列
+3.给section:basics做grid布局：两行两列
+4.写出来的代码没有很好的移植性，不好复制啊。一堆大于号：
+```
+.left > section {
+	display: grid;
+	grid: auto auto/ auto auto;
+}
+.left > sections > span.user {
+	grid-area: 1/1/3/2;
+}
+.left > section > h2 {
+	grid-area: 1/2/2/3;
+}
+.left > section > ul {
+	grid-area: 2/2/3/3;
+}
+```
+今天一天在莽，发现自己做完PC端都还没存档。
+完成左边栏和右边栏。
+那么预告一下copy4.0吧，只剩下移动端适配了，今晚搞定。
+
+~2019年12月29日22点08分/buuoltwo
